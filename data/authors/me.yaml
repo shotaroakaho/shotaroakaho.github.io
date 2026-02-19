@@ -44,7 +44,7 @@ interests:
 education:
   - degree: PhD Mathematical Engineering
     institution: University of Tokyo
-    start: -
+    start: 2001-03-15
     end: 2001-03-15
     summary: |
       Thesis on Finite Mixture Models.
