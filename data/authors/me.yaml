@@ -32,7 +32,7 @@ links:
 #  - icon: brands/linkedin
 #    url: https://www.linkedin.com/in/example/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://scholar.google.com/citations?user=u7_WQIkAAAAJ&hl=ja
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-4623-2718
 
@@ -40,26 +40,6 @@ interests:
   - Statistical Machine Learning
   - Optimization
   - Mathematical Engineering
-
-education:
-  - degree: PhD Mathematical Engineering
-    institution: University of Tokyo
-    start: 2001-03-15
-    end: 2001-03-15
-    summary: |
-      Thesis on Finite Mixture Models.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Mathematical Engineering
-    institution: University of Tokyo
-    start: 1988-04-01
-    end: 1990-03-31
-  - degree: BS Computer Science
-    institution: University of Tokyo
-    start: 1984-04-01
-    end: 1988-03-31
 
 experience:
   - role: Senior Chief Researcher 
