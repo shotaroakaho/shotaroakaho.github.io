@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Shotaro Akaho
+  display: Shotaro Akaho
   given: Shotaro
   family: Akaho
   alternate: '赤穂 昭太郎'  # Example: 王伟
@@ -12,10 +12,9 @@ postnominals:
   - PhD
 status:
   icon: "🤓"
-role: Senior Chief Researcher
+role: Senior Chief Researcher, PhD
 bio: |
-  Shotaro Akaho is a Senior Chief Researcher at AIST, Japan.
-  His research interest is statistical machine learning.
+  Shotaro Akaho (赤穗 昭太郎) is a Senior Chief Researcher at AIST, Japan.
 
 affiliations:
   - name: AIST
@@ -37,56 +36,14 @@ links:
     url: https://orcid.org/0000-0002-4623-2718
 
 interests:
+  - Mathematical Engineering
   - Statistical Machine Learning
   - Optimization
-  - Mathematical Engineering
 
-experience:
-  - role: Senior Chief Researcher 
-    org: AIST
-    start: 2020-04-01
-    summary: |
-     Statistical Machine Learning 
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: Group Leader
-    org: AIST
-    start: 2001-04-01
-    end: 2020-03-31
-    summary: |
-      Mathematical Informatics Group
+experience: []
 
-skills:
-  - name: Technical Skills
-    items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
+skills: []
 
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
+languages: []
 
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+awards: []

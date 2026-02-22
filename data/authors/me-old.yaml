@@ -1,0 +1,91 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Shotaro Akaho
+  given: Shotaro
+  family: Akaho
+  alternate: '赤穂 昭太郎'  # Example: 王伟
+  pronunciation: ''  # Example: Wáng Wěi
+  pronouns: ''
+postnominals:
+  - PhD
+status:
+  icon: "🤓"
+role: Senior Chief Researcher, PhD
+bio: |
+  Shotaro Akaho (赤穗 昭太郎) is a Senior Chief Researcher at AIST, Japan.
+
+affiliations:
+  - name: AIST
+    url: https://www.aist.go.jp/
+
+links:
+  - icon: at-symbol
+    url: mailto:s.akaho@aist.go.jp
+    label: E-mail Me
+  - icon: brands/x
+    url: https://x.com/toddler2009
+  - icon: brands/github
+    url: https://github.com/shotaroakaho
+#  - icon: brands/linkedin
+#    url: https://www.linkedin.com/in/example/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=u7_WQIkAAAAJ&hl=ja
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-4623-2718
+
+interests:
+  - Mathematical Engineering
+  - Statistical Machine Learning
+  - Optimization
+
+experience:
+  - role: Senior Chief Researcher 
+    org: AIST
+    start: 2020-04-01
+    summary: |
+     Statistical Machine Learning 
+    button:
+      text: View portfolio
+      url: /
+      icon: hero/arrow-down-tray
+  - role: Group Leader
+    org: AIST
+    start: 2001-04-01
+    end: 2020-03-31
+    summary: |
+      Mathematical Informatics Group
+
+skills:
+  - name: Technical Skills
+    items:
+      - label: Python
+        level: 5
+      - label: Machine Learning
+        level: 5
+      - label: Cloud Computing
+        level: 4
+  - name: Research & Communication
+    items:
+      - label: Academic Writing
+        level: 5
+      - label: Conference Presentations
+        level: 4
+      - label: Grant Proposals
+        level: 4
+
+languages:
+  - name: Japanese
+    level: 5
+    label: Native
+  - name: English
+    level: 4
+    label: Fluent
+
+awards:
+  - title: Best Paper Award
+    awarder: Japan Neural Network Society
+    date: "2022-12-01"
+    summary: Best paper award for the paper "Detecting cell assemblies by NMF-based clustering from calcium imaging data".
+    icon: hero/trophy

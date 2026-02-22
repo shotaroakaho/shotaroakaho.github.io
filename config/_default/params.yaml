@@ -162,8 +162,8 @@ hugoblox:
     toc:
       enable: true
     # Reading time estimates
-    reading_time:
-      enable: true
+    reading_time: 
+      enable: false
     # Academic citations
     citations:
       style: apa                        # apa | mla | chicago | ieee
@@ -289,3 +289,10 @@ hugoblox:
     # Affiliate referral code for rewards program
     # Join affiliate program: https://hugoblox.com/affiliates
     affiliate_code: ""
+    
+appearance:
+  # スペース2つ
+  custom_css:
+    # スペース4つ + ハイフン + スペース1つ
+    - custom.scss
+    
