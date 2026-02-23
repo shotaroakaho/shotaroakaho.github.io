@@ -7,7 +7,7 @@ reading_time: false
 ---
 
 ### Job history (Main)
-* 2020 - Present: AIST Human-Informatics-Interaction Research Institute, 
+* 2020 - Present: AIST (The National Institute of Advanced Industrial Science and Technology), Human-Informatics-Interaction Research Institute, 
   Mathematical Neuroinformatics Research Group, Senior Chief Researcher
 * 2001 - 2020: AIST (Neuroscience RI (2001-2010), Human-Life-Technology RI (2010-2015),
   Human-Informatics RI (2015-2020)), Mathematical Informatics RG, Group leader
@@ -15,7 +15,7 @@ reading_time: false
   Researcher
 
 ### Job history (Concurrent Roles)
-* 2023 - Present: Institute of Mathematical Statistics, Research Professor
+* 2023 - Present: Institute of Mathematical Statistics (ISM), Research Professor
 * 2023 - Present: Sokendai, Visiting Professor
 * 2021 - Present: The Open University of Japan, Visiting Lecturer
 * 2019 - Present: AIST TICO-AIST Cooperative Research Laboratory
@@ -23,8 +23,9 @@ reading_time: false
 * 2015 - Present: AIST Artificial Intelligence Research Center, Machine learning Research Team
 * 2005 - Present: Waseda University, Visiting Lecturer
 
-* 2013 - 2016: Tokyo Institute of Technology, Collaborative Professor
+* 2013 - 2016: Tokyo Institute of Technology, Collaborative ProfessSor
 * 2003 - 2007: Osaka Univeristy, Collaborative Professor
+* 1995: SNN (Dutch Foundation for Neural Networks) / Nijmegen University, Visiting Researcher
 * (and other temporal visiting lecturers at many universities) 
 
 ### Education
