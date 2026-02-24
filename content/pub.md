@@ -6,7 +6,7 @@ show_authors: false
 reading_time: false
 ---
 
-[Papers](#papers) | [Review articles](#review-articles) | [Books](#books)
+[Papers](#papers) | [Review articles](#review-articles) | [Books](#books) | [Dissertation](#thesis)
 ---
 
 ### Papers {#papers}
@@ -43,3 +43,12 @@ reading_time: false
 <img src="/media/learningsystem.jpg" style="height: 80px !important; width: auto; vertical-align: middle; margin-right: 10px;"> 
   {{< icon name="fab/amazon">}} [Amazon](https://www.amazon.co.jp/dp/4627829418)
   
+  ### Dissertation (in Japanese) {#thesis}
+  * **Research on Finite Mixture Models**, PhD (DEng) University of Tokyo (2001)
+  {{< icon name="fas/file-pdf" >}} [Download](/uploads/thesis-main.pdf)
+  * **Research on Sparse Coding in Neural Networks**, MEng University of Tokyo (1990)
+  {{< icon name="fas/file-pdf" >}} [Download](/uploads/M-thesis.pdf)
+  * **Coordinate-Independent Shape Representation**, BEng University of Tokyo (1988)
+  {{< icon name="fas/file-pdf" >}} [Download](/uploads/B-thesis.pdf)
+
+

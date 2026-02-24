@@ -10,9 +10,15 @@ main:
   - name: Bio
     url: 'bio'
     weight: 20
+  - name: Misc
+    url: 'misc'
+    weight: 30
   - name: Publications
     url: 'pub'
-    weight: 30
+    weight: 40
+  - name: Notes
+    url: 'notes'
+    weight: 50
 #    weight: 11
 #  - name: Talks
 #    url: /#talks
