@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "**/public": true,
+    "**/resources": true,
+    "**/.hugo_build.lock": true
+  },
+  "search.exclude": {
+    "**/public": true,
+    "**/resources": true
+  },
+  "markdown.preview.breaks": true
+}

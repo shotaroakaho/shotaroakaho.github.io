@@ -13,6 +13,8 @@ reading_time: false
  *   {{< icon name="brands/google-scholar">}} [**Google scholar link**](https://scholar.google.com/citations?user=u7_WQIkAAAAJ&hl=ja)
 
 ### Review articles (selected) {#review-articles}
+  * **機械学習の原点: 統計的機械学習の世界**, 応用物理, Vol.95, No.5 (2026)
+    {{< icon name="link">}}[外部リンク(J-STAGE)](https://www.jstage.jst.go.jp/article/oubutsu/95/5/95_274/_article/-char/ja/)
   * **少量のデータに対する機械学習**，IEICE Fundamentals Review Vol.16, No.4 (2023)
      {{< icon name="link">}}[外部リンク(J-STAGE)](https://www.jstage.jst.go.jp/article/essfr/16/4/16_247/_article/-char/ja)
   * **ガウス過程回帰の基礎**，システム/制御/情報, Vol.62, No.10 (2018)

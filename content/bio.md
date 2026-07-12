@@ -16,7 +16,8 @@ reading_time: false
   Researcher
 
 ### Job history (Concurrent Roles)
-* 2023 - Present: Sokendai, Visiting Professor
+* 2026 - Present: Sokendai, Professor
+* 2023 - 2026: Sokendai, Visiting Professor
 * 2023 - 2026: Institute of Mathematical Statistics (ISM), Research Professor
 * 2021 - Present: The Open University of Japan, Visiting Lecturer
 * 2019 - 2026: AIST TICO-AIST Cooperative Research Laboratory
