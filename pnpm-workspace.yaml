@@ -1,0 +1,2 @@
+# Hugo runs the Tailwind Node script directly with Node permissions enabled.
+preferSymlinkedExecutables: true

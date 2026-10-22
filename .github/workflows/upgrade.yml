@@ -44,7 +44,7 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
-          package_json_path: ./package.json
+          package_json_file: ./package.json
           run_install: false
 
       - name: Setup Go
@@ -73,6 +73,23 @@ jobs:
           echo "Running upgrade with flags: $FLAGS"
           pnpm dlx hugoblox@latest upgrade $FLAGS
 
+          # The CLI writes its minimum Hugo requirement; retain a newer tested version.
+          python3 - <<'PYTHON'
+          import re
+          import subprocess
+          from pathlib import Path
+
+          config = Path("hugoblox.yaml")
+          previous = subprocess.check_output(["git", "show", "HEAD:hugoblox.yaml"], text=True)
+          pattern = r"hugo_version:\s*['\"]([0-9.]+)['\"]"
+          old = re.search(pattern, previous).group(1)
+          new = re.search(pattern, config.read_text()).group(1)
+          if tuple(map(int, old.split("."))) > tuple(map(int, new.split("."))):
+              config.write_text(config.read_text().replace(new, old))
+              netlify = Path("netlify.toml")
+              netlify.write_text(netlify.read_text().replace(f'HUGO_VERSION = "{new}"', f'HUGO_VERSION = "{old}"'))
+          PYTHON
+
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
@@ -90,7 +107,7 @@ jobs:
             **Verification:**
             - [ ] Check the Deploy Preview to ensure everything looks correct.
             - [ ] Merge this PR to apply the updates.
-          branch: "chore/upgrade-hugoblox-${{ github.run_id }}"
+          branch: "chore/upgrade-hugoblox"
           delete-branch: true
           base: main
           labels: |

@@ -10,5 +10,5 @@ sections:
         folders:
           - notes # content/notes フォルダ内の記事を表示
     design:
-      view: "compact" 
+      view: "date-title-summary"
 ---

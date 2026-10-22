@@ -2,7 +2,7 @@
   "name": "hugo-blox-academic-cv-starter",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@10.14.0",
+  "packageManager": "pnpm@10.34.7",
   "description": "Academic CV starter template for Hugo Blox with Tailwind CSS v4",
   "scripts": {
     "dev": "hugo server --disableFastRender",
@@ -10,10 +10,10 @@
     "pagefind": "pagefind --site public"
   },
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.12",
-    "@tailwindcss/typography": "^0.5.10",
-    "pagefind": "^1.4.0",
-    "preact": "^10.27.2"
+    "@tailwindcss/cli": "^4.3.3",
+    "@tailwindcss/typography": "^0.5.20",
+    "pagefind": "^1.5.2",
+    "preact": "^10.29.8"
   },
   "main": "index.js",
   "repository": {
@@ -29,6 +29,16 @@
   },
   "homepage": "https://github.com/shotaroakaho/shotaroakaho-portfolio#readme",
   "devDependencies": {
-    "tailwindcss": "^4.1.18"
+    "tailwindcss": "^4.3.3"
+  },
+  "overrides": {
+    "@parcel/watcher": "^2.6.0",
+    "postcss-selector-parser": "^7.1.7"
+  },
+  "pnpm": {
+    "overrides": {
+      "@parcel/watcher": "^2.6.0",
+      "postcss-selector-parser": "^7.1.7"
+    }
   }
 }
